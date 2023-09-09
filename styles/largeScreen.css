@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
+
+:root{
+    --Font1: 'Qwitcher Grypen', cursive;
+    --Font2: 'Qwigley', cursive;
+    --Font3: 'Josefin Sans', sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color:#012622;
+}
+
+header{
+    background-color: #003B36;
+    padding: 25px;
+    box-shadow: 0px 3px 7px 5px #003b3685;
+}
+
+header > h1{
+    font-family: var(--Font1);
+    font-size: 120px;
+    text-align: center;
+    color: #9FB8AD;
+    margin-bottom: -4px;
+}
+
+header > h2{
+    font-family: var(--Font3);
+    font-size: 20px;
+    text-align: center;
+    color: #9FB8AD;
+}
+
+header > h1 > span.copy{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    vertical-align: 0.9em;
+    margin-left: -3px;
+}
+
+<h1> Dovani Lenares <span class="copy">&copy;</span> </h1>
+<h2> Analista de sistemas e desenvolvedor. </h2>
