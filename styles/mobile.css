@@ -88,7 +88,7 @@ main > section{
     margin: auto;
     width: 300px;
     height: 250px;
-    background: url(images/DovaniLenaresPhoto.jpg);
+    background: url(../images/DovaniLenaresPhoto.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border-radius: 10px;
