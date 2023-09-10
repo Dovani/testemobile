@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 750px) {
+
+    html{
+        font-size: 50%;
+    }
+
+    header > table.headtable {
+        max-width: none;
+    }
+
+    td.leftHead {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    td.leftHead > h1{
+        font-family: var(--Font1);
+        font-size: 88px;
+        text-align: center;
+        color: #9FB8AD;
+        margin-left: 30px;
+        margin-bottom: -4px;
+    }
+
+    td.leftHead > h1.sub{
+        font-family: var(--Font3);
+        font-size: 20px;
+        text-align: center;
+        color: #9FB8AD;
+        
+    }
+
+    td.rightHead{
+        width: 0%;
+        
+    }
+
+    #menu{
+        margin-top: 40px;
+    }
+
+    .conteiner .titulo{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    
+    .conteiner .items{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+        gap:2rem;
+    }
+
+
+}

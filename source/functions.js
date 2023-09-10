@@ -8,6 +8,30 @@ function clickMenu() {
   }
 }
 
+function clickBackCard(){
+  largura = window.innerWidth;
+  if(largura < 768){
+    var back = document.getElementById("back");
+    var front = document.getElementById("front")
+    if(back.style.transform = 'rotateY(0)'){
+      back.style.transform = 'rotateY(180deg)';
+      front.style.transform = 'rotateY(0)';
+    }
+  }
+}
+
+function clickFrontCard(){
+  largura = window.innerWidth;
+  if(largura < 768){
+    var back = document.getElementById("back");
+    var front = document.getElementById("front")
+    if(front.style.transform = 'rotateY(0)'){
+      front.style.transform = 'rotateY(180deg)';
+      back.style.transform = 'rotateY(0)';
+    }
+  }
+}
+
 let previewContainer = document.querySelector('.item-view');
 let previewBox = previewContainer.querySelectorAll('.preview');
 

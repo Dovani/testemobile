@@ -1,51 +1,85 @@
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
+@media screen and (min-width: 768px) {
 
-:root{
-    --Font1: 'Qwitcher Grypen', cursive;
-    --Font2: 'Qwigley', cursive;
-    --Font3: 'Josefin Sans', sans-serif;
+    html{
+        font-size: 50%;
+    }
 
+    header > table.headtable {
+        max-width: none;
+    }
+
+    td.leftHead {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    td.leftHead > h1{
+        font-family: var(--Font1);
+        font-size: 88px;
+        text-align: center;
+        color: #9FB8AD;
+        margin-left: 30px;
+        margin-bottom: -4px;
+    }
+
+    td.leftHead > h2.sub{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    td.rightHead{
+        width: 0%;
+        
+    }
+
+    #menu{
+        margin-top: 40px;
+    }
+
+    
+    main > h2.aboutme{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .main01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .main01 .texto{
+        
+        text-align: justify;
+        max-width: 1100px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    main > .card{
+        width: 300px;
+        height: 300px;
+        position:relative;
+    }
+
+    .card:hover .front{
+        transform: rotateY(180deg);
+    }
+    
+    .card:hover .back{
+        transform: rotateY(0);
+    }
+
+    main > p.texto{
+        margin-top: 40px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-indent: 40px;
+        font-size: 20px;
+    }
 }
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-html, body{
-    background-color:#012622;
-}
-
-header{
-    background-color: #003B36;
-    padding: 25px;
-    box-shadow: 0px 3px 7px 5px #003b3685;
-}
-
-header > h1{
-    font-family: var(--Font1);
-    font-size: 120px;
-    text-align: center;
-    color: #9FB8AD;
-    margin-bottom: -4px;
-}
-
-header > h2{
-    font-family: var(--Font3);
-    font-size: 20px;
-    text-align: center;
-    color: #9FB8AD;
-}
-
-header > h1 > span.copy{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    vertical-align: 0.9em;
-    margin-left: -3px;
-}
-
-<h1> Dovani Lenares <span class="copy">&copy;</span> </h1>
-<h2> Analista de sistemas e desenvolvedor. </h2>

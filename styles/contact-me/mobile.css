@@ -75,6 +75,7 @@ td.rightHead > span#menu-toggle{
     background-color: #025853;
     color: #012622; 
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #menu{
@@ -86,6 +87,7 @@ td.rightHead > span#menu-toggle{
     border: 2px seagreen solid;
     border-radius: 5px;
     z-index: 1000;
+    cursor: pointer;
 }
   
 #menu ul {
@@ -134,6 +136,13 @@ main > a.emaillink{
     font-family: var(--Font3);
     color: #9FB8AD;
     padding-left: 20px;
+}
+
+main > p.numero{
+    color: #9FB8AD;
+    padding-left: 20px;
+    font-family: var(--Font3);
+    padding-top: 7px;
 }
 
 main > div.icon-zap{
