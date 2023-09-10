@@ -27,6 +27,10 @@ header{
     text-align: center;
 }
 
+#menu-toggle{
+    font-size: 40px;
+}
+
 header > table.headtable {
     max-width: 800px;
     margin: auto;
@@ -68,7 +72,7 @@ td.rightHead{
 }
 
 td.rightHead > span#menu-toggle{
-    background-color: #00665E;
+    background-color: #025853;;
     color: #012622; 
     border-radius: 5px;
 }

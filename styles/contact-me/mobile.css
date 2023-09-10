@@ -27,6 +27,10 @@ header{
     text-align: center;
 }
 
+#menu-toggle{
+    font-size: 40px;
+}
+
 header > table.headtable {
     max-width: 800px;
     margin: auto;
@@ -68,7 +72,7 @@ td.rightHead{
 }
 
 td.rightHead > span#menu-toggle{
-    background-color: #00665E;
+    background-color: #025853;
     color: #012622; 
     border-radius: 5px;
 }
@@ -102,37 +106,46 @@ td.rightHead > span#menu-toggle{
 }
 
 main{
-    padding-top: 30px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #014742;
+    box-shadow: 2px 2px 2px 5px #003B36;
+    border-radius: 15px;
 }
 
 main > h2.contatoh2{
     font-family: var(--Font3);
     color: #9FB8AD;
     text-align: center;
+    padding-top: 30px;
 }
 
 main > p.nome{
+    margin-top: 40px;
     font-family: var(--Font3);
     color: #9FB8AD;
     padding-top: 20px;
+    padding-left: 20px;
 }
 
 main > a.emaillink{
     text-decoration: none;
     font-family: var(--Font3);
     color: #9FB8AD;
+    padding-left: 20px;
 }
 
 main > div.icon-zap{
     padding-top: 20px;
     font-size: 20px;
+    padding-left: 20px;
 }
 
 main > div.icon {
     text-align: left;
     margin-top: 7px;
+    padding-left: 20px;
 }
 
 main > div > a.whats{
@@ -160,6 +173,7 @@ main > div > a.notion{
     font-family: var(--Font3);
     font-size: 20px;
     color: darkgray;
+    padding-left: 20px;
 }
 
 main > div > a > img.iconenotion{
@@ -167,4 +181,9 @@ main > div > a > img.iconenotion{
     vertical-align: -0.2em;
     width: 20px;
     height: 20px;
+
+}
+
+main > div.icon-img{
+    padding-bottom: 40px;
 }
