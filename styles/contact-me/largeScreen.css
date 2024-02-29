@@ -39,6 +39,11 @@
 
     #menu{
         margin-top: 40px;
+        font-family: var(--Font3);
+    }
+
+    .menu_ul_li:hover{
+        background-color: rgba(209, 207, 207, 0.445);
     }
 
     .main01{

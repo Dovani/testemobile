@@ -41,6 +41,10 @@
         margin-top: 40px;
     }
 
+    .menu_ul_li:hover{
+        background-color: rgba(209, 207, 207, 0.445);
+    }
+
     .conteiner .titulo{
         margin-top: 40px;
         margin-bottom: 40px;
